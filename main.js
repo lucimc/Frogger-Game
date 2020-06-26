@@ -1,4 +1,3 @@
-
 function main () {
   const grid = document.querySelector('.grid');
   const logo = document.querySelector('.logo');
@@ -11,7 +10,6 @@ function main () {
   startButton.addEventListener('click', GameStart);
 
   function GameStart () {
-    // display front page
     startButton.classList.remove('start-button');
     startButton.style.display = 'none';
     grid.classList.add('grid');
@@ -44,8 +42,6 @@ function main () {
 }
 
 window.addEventListener('DOMContentLoaded', main);
-
-// let river = [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 
 let frogDirection = 'frog';
 
@@ -141,12 +137,6 @@ function loadSpikes () {
   cells[117].classList.add('spike');
   cells[142].classList.add('spike');
 }
-
-// function loadLilypad() {
-//   cells[12].classList.add('lilypad')
-//   cells[8].classList.add('lilypad')
-//   cells[4].classList.add('lilypad')
-// }
 
 function loadGrid () {
   const grid = document.querySelector('.grid');
