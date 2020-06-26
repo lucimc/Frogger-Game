@@ -11,7 +11,7 @@ function main () {
   startButton.addEventListener('click', GameStart);
 
   function GameStart () {
-    // call functions here to display front page
+    // display front page
     startButton.classList.remove('start-button');
     startButton.style.display = 'none';
     grid.classList.add('grid');
